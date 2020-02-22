@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-		Gästehauzs Löffler, Urlaub am Fuße des Vulkanlands
+		Gästehaus Löffler, Urlaub am Fuße des Vulkanlands
 	</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -47,19 +47,8 @@
 			</a>
 		</div>
 
-		<div class="block lg:hidden pr-4">
-			<button id="nav-toggle" class="flex items-center p-1 text-green-800 hover:text-gray-900">
-				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-			</button>
-		</div>
-
-		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-			<ul class="list-reset lg:flex justify-end flex-1 items-center">
-				<li class="mr-3">
-					<a class="inline-block text-white no-underline hover:text-white-800 hover:text-underline py-2 px-4" href="#">Routenplan</a>
-				</li>
-			</ul>
-			<button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-green-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Buchen</button>
+		<div class="hidden md:block flex items-center w-auto block mt-0 bg-transparent p-0 justify-end" id="nav-content">
+			<button id="navAction" class="mx-0 hover:underline bg-white text-green-800 font-bold rounded-full mt-0 py-4 px-8 shadow">Buchen</button>
 		</div>
 	</div>
 	
@@ -287,7 +276,7 @@
       header.classList.add("bg-white");
 	  navaction.classList.remove("bg-white");
 	  navaction.classList.add("gradient");
-	  navaction.classList.remove("text-gray-800");
+	  navaction.classList.remove("text-green-800");
 	  navaction.classList.add("text-white");
 	  //Use to switch toggleColour colours
   	  for (var i = 0; i < toToggle.length; i++) {
