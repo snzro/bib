@@ -37,7 +37,7 @@
 
 <body class="leading-normal tracking-normal text-gray-800 gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
-<nav id="header" class="fixed w-full z-30 top-0 text-white">
+<nav id="header" class="fixed w-full z-30 top-0 text-white" style="background: #14501e;">
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 			<div class="pl-4 flex items-center">
 			<h1 class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
@@ -58,7 +58,7 @@
 <div class="pt-24">
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 		<div class="flex flex-col w-full justify-center items-start text-center md:text-left">
-			<section class="container mx-auto text-center py-6 mb-8">
+			<section class="container mx-auto text-center mb-8">
 				<picture class="flex mx-auto text-center items-center py-6 my-8">
 					<img
 					style="border: 2px solid #357829;"
@@ -400,47 +400,6 @@
 	</div>
 </section>
 
-
-<script>
-/*	
-	var scrollpos = window.scrollY;
-	var header = document.getElementById("header");
-	var navcontent = document.getElementById("nav-content");
-	var brandname = document.getElementById("brandname");
-	var toToggle = document.querySelectorAll(".toggleColour");
-
-	document.addEventListener('scroll', function() {
-
-	
-	scrollpos = window.scrollY;
-
-    if(scrollpos > 10){
-      header.classList.add("bg-white");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-gray-800");
-		 toToggle[i].classList.remove("text-white");
-	  }
-	  header.classList.add("shadow");
-	  navcontent.classList.remove("bg-transparent");
-	  navcontent.classList.add("bg-white");
-    }
-    else {
-	  header.classList.remove("bg-white");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-white");
-		 toToggle[i].classList.remove("text-gray-800");
-	  }
-
-	  header.classList.remove("shadow");
-	  navcontent.classList.remove("bg-white");
-	  navcontent.classList.add("bg-transparent");
-
-    }
-  });
-  */
-</script>
 <style>
 	.carousel-open:checked + .carousel-item {
 		position: static;
