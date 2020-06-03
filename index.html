@@ -255,7 +255,12 @@
 				
 				<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
 				<div class="carousel-item absolute opacity-0" style="height:50vh;">
-					<img class="h-full w-full z-50" src="assets/slideshow1.jpeg">
+					<img 
+						class="h-full w-full z-50" 
+						src="assets/slideshow1.jpeg"
+						loading="lazy"
+						alt="Ferienhaus Ulrichsbrunn Wohnzimmer"
+					>
 				</div>
 				<label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
 				<label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
@@ -263,7 +268,12 @@
 				
 				<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
 				<div class="carousel-item absolute opacity-0" style="height:50vh;">
-					<img class="h-full w-full z-50" loading="lazy" src="assets/slideshow2.jpeg">
+					<img 
+						class="h-full w-full z-50"
+						loading="lazy" 
+						src="assets/slideshow2.jpeg"
+						alt="Ferienhaus Ulrichsbrunn Badezimmer"
+					>
 				</div>
 				<label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
 				<label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
@@ -271,7 +281,11 @@
 				
 				<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
 				<div class="carousel-item absolute opacity-0" style="height:50vh;">
-					<img class="h-full w-full z-50" loading="lazy" src="assets/slideshow3.jpeg">
+					<img class="h-full w-full z-50" 
+						loading="lazy"
+					 	src="assets/slideshow3.jpeg"
+					 	alt="Ferienhaus Ulrichsbrunn Wohnzimmer"
+					>
 				</div>
 				<label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
 				<label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
@@ -342,10 +356,6 @@
 	<p class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
 		Wir freuen uns aus Ihren Besucht
 	</p>
-	<div class="w-full mb-4">
-		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-	</div>
-	
 	<h4 class="my-6 text-3xl text-white leading-tight">
 		Ferienhaus Ulrichsbrunn - Entspannung und Entschleunigung im Vulkanland
 	</h4>
@@ -417,6 +427,7 @@
 	#carousel-2:checked ~ .control-2,
 	#carousel-3:checked ~ .control-3 {
 		display: block;
+		user-select: none;
 	}
 	.carousel-indicators {
 		list-style: none;
