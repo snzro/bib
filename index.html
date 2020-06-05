@@ -34,7 +34,7 @@
 		<nav id="header" class="fixed w-full z-30 top-0 text-white" style="background: #14501e;">
 			<div class="w-full container flex flex-wrap items-center justify-between mt-0 py-2">
 				<div class="pl-4 flex items-center">
-					<h1 class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
+					<h1 class="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
 						Ferienhaus Ulrichsbrunn
 					</h1>
 				</div>				
@@ -199,11 +199,62 @@
 				</div>
 			</div>
 		</section>
+		<section class="bg-white border-b py-8">
+			<div class="container max-w-5xl mx-auto m-8">
+				<div class="carousel relative shadow-2xl bg-white">
+					<div class="carousel-inner relative overflow-hidden w-full">
+						<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+						<div class="carousel-item absolute opacity-0" style="height:50vh;">
+							<img 
+								class="h-full w-full z-50" 
+								src="assets/slideshow1.jpeg"
+								loading="lazy"
+								alt="Ferienhaus Ulrichsbrunn Wohnzimmer"
+								>
+						</div>
+						<label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+						<label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+						<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+						<div class="carousel-item absolute opacity-0" style="height:50vh;">
+							<img 
+								class="h-full w-full z-50"
+								loading="lazy" 
+								src="assets/slideshow2.jpeg"
+								alt="Ferienhaus Ulrichsbrunn Badezimmer"
+								>
+						</div>
+						<label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+						<label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+						<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+						<div class="carousel-item absolute opacity-0" style="height:50vh;">
+							<img class="h-full w-full z-50" 
+								loading="lazy"
+								src="assets/slideshow3.jpeg"
+								alt="Ferienhaus Ulrichsbrunn Wohnzimmer"
+								>
+						</div>
+						<label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+						<label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+						<ol class="carousel-indicators">
+							<li class="inline-block mr-3">
+								<label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-black">•</label>
+							</li>
+							<li class="inline-block mr-3">
+								<label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-black">•</label>
+							</li>
+							<li class="inline-block mr-3">
+								<label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-black">•</label>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>		
+		</section>
 
 		<section class="bg-white border-b py-8">
 			<div class="container max-w-5xl mx-auto m-8">
 				<h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-					Sehenswürdigkeiten und Ausflüge
+					Ausflüge
 				</h2>
 				<div class="w-full mb-4">
 					<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -283,57 +334,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="container max-w-5xl mx-auto m-8">
-				<div class="carousel relative shadow-2xl bg-white">
-					<div class="carousel-inner relative overflow-hidden w-full">
-						<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-						<div class="carousel-item absolute opacity-0" style="height:50vh;">
-							<img 
-								class="h-full w-full z-50" 
-								src="assets/slideshow1.jpeg"
-								loading="lazy"
-								alt="Ferienhaus Ulrichsbrunn Wohnzimmer"
-								>
-						</div>
-						<label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-						<label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-						<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-						<div class="carousel-item absolute opacity-0" style="height:50vh;">
-							<img 
-								class="h-full w-full z-50"
-								loading="lazy" 
-								src="assets/slideshow2.jpeg"
-								alt="Ferienhaus Ulrichsbrunn Badezimmer"
-								>
-						</div>
-						<label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-						<label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-						<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-						<div class="carousel-item absolute opacity-0" style="height:50vh;">
-							<img class="h-full w-full z-50" 
-								loading="lazy"
-								src="assets/slideshow3.jpeg"
-								alt="Ferienhaus Ulrichsbrunn Wohnzimmer"
-								>
-						</div>
-						<label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-						<label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-black rounded-full bg-white hover:bg-grey-200 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-						<ol class="carousel-indicators">
-							<li class="inline-block mr-3">
-								<label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-black">•</label>
-							</li>
-							<li class="inline-block mr-3">
-								<label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-black">•</label>
-							</li>
-							<li class="inline-block mr-3">
-								<label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-black">•</label>
-							</li>
-						</ol>
-					</div>
-				</div>
-			</div>
+			</div>			
 		</section>
 		<section class="bg-white border-b py-8">
 			<div class="container mx-auto flex flex-wrap pt-4 pb-12">
